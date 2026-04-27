@@ -23,8 +23,8 @@ env:
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   AWS_REGION: ${{ secrets.AWS_REGION }}
 
-    steps:
-      # Step 1: Get the code
+steps:
+# Step 1: Get the code
       - name: Checkout repository
         uses: actions/checkout@v4
 
