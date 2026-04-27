@@ -10,7 +10,7 @@ on:
       - main
 
       # Jobs to run
-jobs:
+  jobs:
    terraform:
      name: Terraform Plan & Apply
      runs-on: ubuntu-latest
